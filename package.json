@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-demo",
+  "version": "1.0.0",
+  "description": "nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pattabhia/nodejs-demo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "demo"
+  ],
+  "author": "Pattabhi A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pattabhia/nodejs-demo/issues"
+  },
+  "homepage": "https://github.com/pattabhia/nodejs-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "chalk": "^5.4.1",
+    "express": "^4.21.2"
+  }
+}
