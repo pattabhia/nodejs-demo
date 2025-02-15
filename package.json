@@ -1,29 +1,20 @@
 {
-  "name": "nodejs-demo",
+  "name": "nodejs-complete-guide",
   "version": "1.0.0",
-  "description": "nodejs",
+  "description": "Complete Node.js Guide",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pattabhia/nodejs-demo.git"
-  },
-  "keywords": [
-    "nodejs",
-    "demo"
-  ],
   "author": "Pattabhi A",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pattabhia/nodejs-demo/issues"
+  "devDependencies": {
+    "nodemon": "^1.18.3"
   },
-  "homepage": "https://github.com/pattabhia/nodejs-demo#readme",
   "dependencies": {
-    "body-parser": "^1.20.3",
-    "chalk": "^5.4.1",
-    "express": "^4.21.2"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
   }
 }
