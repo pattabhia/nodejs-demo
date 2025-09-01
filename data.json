@@ -1,0 +1,10 @@
+{
+  "name": "John Doe",
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "state": "CA",
+    "zip": "1234567"
+  },
+  "cities_visited": ["New York", "Los Angeles", "Chicago"]
+}
