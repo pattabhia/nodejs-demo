@@ -5,5 +5,4 @@ console.log(data);
 
 const emitter = new eventEmitter();
 emitter.on("log", (msg) => console.log(msg));
-
 emitter.emit("log", "Hello World!");
