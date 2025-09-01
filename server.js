@@ -1,10 +1,11 @@
 const express = require('express');
-const { databaseFunction } = require('./database');
+const dbFunc = require('./database');
+const DatabaseConnection = require('./database');
 
 const server = express();
 
 server.get('/', (_req, res) => {
-    databaseFunction();
+    new DatabaseConnection().databaseFunction();
     res.send('Hello World!');
 });
 
