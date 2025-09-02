@@ -25,3 +25,15 @@ fs.readFile("./message.txt", { encoding: "utf-8" }, (err, data) => {
     }
     console.log(data);
 });
+
+//async await approach
+async function readFile() {
+    try {
+        const data = await fs.promises.readFile("./message.txt", { encoding: "utf-8" });
+        console.log(data);
+    } catch (err) {
+        console.log(err);
+    }
+}
+
+readFile();
